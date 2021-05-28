@@ -1,0 +1,10 @@
+C:\Users\DarkLite\source\repos\T-34\T-34\obj\Debug\T-34.csprojAssemblyReference.cache
+C:\Users\DarkLite\source\repos\T-34\T-34\obj\Debug\T_34.Form1.resources
+C:\Users\DarkLite\source\repos\T-34\T-34\obj\Debug\T_34.Properties.Resources.resources
+C:\Users\DarkLite\source\repos\T-34\T-34\obj\Debug\T-34.csproj.GenerateResource.cache
+C:\Users\DarkLite\source\repos\T-34\T-34\obj\Debug\T-34.csproj.CoreCompileInputs.cache
+C:\Users\DarkLite\source\repos\T-34\T-34\bin\Debug\T-34.exe.config
+C:\Users\DarkLite\source\repos\T-34\T-34\bin\Debug\T-34.exe
+C:\Users\DarkLite\source\repos\T-34\T-34\bin\Debug\T-34.pdb
+C:\Users\DarkLite\source\repos\T-34\T-34\obj\Debug\T-34.exe
+C:\Users\DarkLite\source\repos\T-34\T-34\obj\Debug\T-34.pdb
