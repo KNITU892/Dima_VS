@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/6.6.4/math.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+    <h3>A</h3><output id="out"></output> 
+
+ <div class="One">  
+        <div>
+            <h3>R</h3> <input id="R" >
+        </div> 
+
+        <div>
+            <h3>t1</h3>  <input id="t1">
+        </div>
+
+        <div>
+            <h3>t2</h3>  <input id="t2">
+        </div>
+
+        <div>
+            <h3>m</h3>  <input id="m">
+        </div>
+
+        <div>
+            <h3>M</h3>  <input id="M">
+        </div>
+
+    </div> 
+    <button onclick="click()">Рассчитать</button>
+    </div>
+    <script>
+        document.querySelector("button").onclick = function(){
+        var R = document.getElementById( "R" ).value;
+        var t1 = document.getElementById ( "t1" ).value;
+        var t2 = document.getElementById( "t2" ).value;
+        var m = document.getElementById ( "m" ).value;
+        var M = document.getElementById( "M" ).value; 
+        var res = (-3/2)*(m/M)*R*(t2-t1);
+        document.getElementById("out").innerHTML = res;
+        }
+    </script>
+</body>
+
+</html>

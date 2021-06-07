@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/6.6.4/math.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+    <h3>W</h3><output id="out"></output> 
+
+ <div class="One">  
+        <div>
+            <h3>C</h3> <input id="c" >
+        </div> 
+
+        <div>
+            <h3>U</h3>  <input id="u">
+        </div>
+    </div> 
+    <button onclick="click()">Рассчитать</button>
+    </div>
+    <script>
+        document.querySelector("button").onclick = function(){
+        var c = document.getElementById( "c" ).value;
+        var u = document.getElementById ( "u" ).value; 
+        var res = (c*(u*u))/2;
+        document.getElementById("out").innerHTML = res;
+        }
+    </script>
+</body>
+
+</html>
